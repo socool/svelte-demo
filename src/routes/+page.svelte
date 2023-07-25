@@ -1,4 +1,5 @@
 <script>
+    import Nested from "./nested.svelte";
     let name = "svelte";
     let gif = "public/test.gif";
 </script>
@@ -12,4 +13,5 @@
 </style>
 <h1>Welcome to SvelteKit</h1>
 <p>{name.toUpperCase()}</p>
+<Nested/>
 <img src={gif} alt="simpson dance">
