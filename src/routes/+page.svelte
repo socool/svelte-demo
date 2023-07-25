@@ -20,6 +20,17 @@
         alert('count is dangerously high');
         count = 0;
     }
+
+    let numbers = [1,2,3,4];
+    function addNumber(){
+        /*
+        numbers.push(numbers.length+1)
+        numbers = numbers;
+        */
+		// numbers = [...numbers,numbers.length+1]
+		numbers[numbers.length] = numbers.length + 1;
+    }
+    $: sum = numbers.reduce((total,currentNumber)=>total + currentNumber,0);
 </script>
 <style>
 	/* Write your CSS here */
@@ -50,3 +61,9 @@
 <p>{count} doubled is {doubled}</p>
 
 <h2>Statements</h2>
+
+<h2>Updating arrays and objects</h2>
+<p>{numbers.join(' + ')} = {sum}</p>
+<button on:click={addNumber}>
+    Add a number
+</button>
