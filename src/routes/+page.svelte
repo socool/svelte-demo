@@ -9,6 +9,8 @@
         //event handler code goes here
         count += 1;
     }
+
+    $: doubled = count * 2;
 </script>
 <style>
 	/* Write your CSS here */
@@ -34,3 +36,6 @@
     Clicked {count}
     {count === 1 ? 'time' : 'times'}
 </button>
+
+<h2>Declarations</h2>
+<p>{count} doubled is {doubled}</p>
