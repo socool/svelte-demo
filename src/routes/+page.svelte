@@ -11,6 +11,15 @@
     }
 
     $: doubled = count * 2;
+
+    $: {
+        console.log(`the count is ${count}`);
+        console.log(`this will also be logged whenever counted is changed`)
+    }
+    $: if(count >= 10){
+        alert('count is dangerously high');
+        count = 0;
+    }
 </script>
 <style>
 	/* Write your CSS here */
@@ -39,3 +48,5 @@
 
 <h2>Declarations</h2>
 <p>{count} doubled is {doubled}</p>
+
+<h2>Statements</h2>
