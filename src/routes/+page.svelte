@@ -3,6 +3,12 @@
     let name = "svelte";
     let gif = "public/test.gif";
     let string = `this string contains some <strong>HTML!!!</strong>`;
+    
+    let count = 0;
+    function increment(){
+        //event handler code goes here
+        count += 1;
+    }
 </script>
 <style>
 	/* Write your CSS here */
@@ -22,3 +28,9 @@
 <h2>Html Tag</h2>
 <p>{string}</p>
 <p>{@html string}</p>
+
+<h2>Button</h2>
+<button on:click={increment}>
+    Clicked {count}
+    {count === 1 ? 'time' : 'times'}
+</button>
