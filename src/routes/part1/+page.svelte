@@ -1,6 +1,5 @@
 <script>
-    import Page from "../+page.svelte";
-import PackageInfo from "./PackageInfo.svelte";
+    import PackageInfo from "./PackageInfo.svelte";
     
     const pkg = {
         name: 'svelte',

@@ -56,7 +56,7 @@
 <h2>Html Tag</h2>
 <p>{string}</p>
 <p>{@html string}</p>
-
+    
 <h2>Button</h2>
 <button on:click={increment}>
     Clicked {count}
