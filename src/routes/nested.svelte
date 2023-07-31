@@ -1,5 +1,5 @@
 <p>This is paragraph</p>
 <script>
-    export let answer = 'a mystery';
+    export let answer = 0;
 </script>
 <p>The answer is {answer}</p>
