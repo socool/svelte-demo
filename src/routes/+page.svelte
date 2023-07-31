@@ -67,3 +67,5 @@
 <button on:click={addNumber}>
     Add a number
 </button>
+
+<Nested answer={42}/>
