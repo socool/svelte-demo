@@ -49,6 +49,7 @@
     <a href="/">Home</a>
     <a href="/part1">Part 1</a>
     <a href="/part1/logic">Logic</a>
+    <a href="/part1/logic/keyed">Keyed each blocks</a>
 </nav>
 
 <h2>Component</h2>
