@@ -44,6 +44,12 @@
 <p>{name.toUpperCase()}</p>
 <img src={gif} alt="simpson dance">
 
+<h2>Menu</h2>
+<nav>
+    <a href="/">Home</a>
+    <a href="/part1">Part 1</a>
+</nav>
+
 <h2>Component</h2>
 <Nested/>
 
