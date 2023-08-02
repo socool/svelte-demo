@@ -51,7 +51,7 @@
     <a href="/part1/logic">Logic</a>
     <a href="/part1/logic/keyed">Keyed each blocks</a>
     <a href="/part1/logic/await">Await blocks</a>
-    <a href="/part1/logic/event">Event</a>
+    <a href="/part1/logic/event/dom">DOM Event</a>
 </nav>
 
 <h2>Component</h2>
