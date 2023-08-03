@@ -1,3 +1,3 @@
-<button on:click={() => alert('clicked')}>
+<button on:click|once={() => alert('clicked')}>
     Click me
 </button>
