@@ -44,14 +44,19 @@
 <p>{name.toUpperCase()}</p>
 <img src={gif} alt="simpson dance">
 
-<h2>Menu</h2>
+<h2><a href="/">Home</a></h2>
+<h3>Part 1</h3>
+<h4>Logic</h4>
 <nav>
-    <a href="/">Home</a>
-    <a href="/part1">Part 1</a>
+    <a href="/part1">Part 1</a>    
     <a href="/part1/logic">Logic</a>
     <a href="/part1/logic/keyed">Keyed each blocks</a>
     <a href="/part1/logic/await">Await blocks</a>
+</nav>
+<h4>Events</h4>
+<nav>
     <a href="/part1/logic/event/dom">DOM Event</a>
+    <a href="/part1/logic/event/modifier">Modifier</a>
 </nav>
 
 <h2>Component</h2>
