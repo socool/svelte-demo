@@ -57,6 +57,7 @@
 <nav>
     <a href="/part1/logic/event/dom">DOM Event</a>
     <a href="/part1/logic/event/modifier">Modifier</a>
+    <a href="/part1/logic/event/component">Component</a>
 </nav>
 
 <h2>Component</h2>
