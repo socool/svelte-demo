@@ -60,7 +60,12 @@
     <a href="/part1/logic/event/modifier">Modifier</a>
     <a href="/part1/logic/event/component">Component</a>
 </nav>
-
+<h3>Part 2</h3>
+<h4>Binding</h4>
+<nav>
+    <a href="/part2/bindings/text-input">Text Input</a>
+    <a href="/part2/bindings/numeric-input">Numeric Input</a>
+</nav>
 <h2>Component</h2>
 <Nested/>
 
