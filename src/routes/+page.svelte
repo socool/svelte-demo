@@ -65,6 +65,7 @@
 <nav>
     <a href="/part2/bindings/text-input">Text Input</a>
     <a href="/part2/bindings/numeric-input">Numeric Input</a>
+    <a href="/part2/bindings/checkbox-input">Checkbox Input</a>
 </nav>
 <h2>Component</h2>
 <Nested/>
